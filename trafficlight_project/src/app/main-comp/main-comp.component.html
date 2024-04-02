@@ -1,0 +1,23 @@
+<h2 class="main">TRAFFIC LIGHT</h2>
+<div class="container-fluid" (load)="main1()">
+  <div class="row back ">
+
+
+    <div class="col-3">
+      <button (click)="main1()" class="btn btn-success">ON</button>
+      <img [src]="img_url" height="70%">
+
+    </div>
+    <div class="col-6 img_cls">
+      <h2 class="message">{{msg}}</h2>
+      <img [src]="vid_url" >
+
+    </div>
+
+    <div class="col-3">
+      <img [src]="img_url" height="70%">
+
+    </div>
+  </div>
+</div>
+

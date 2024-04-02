@@ -1,0 +1,28 @@
+.but{
+  height:100px;
+  width:200px;
+  margin-top: 150px;
+}
+.back{
+  margin-top: 200px;
+
+
+}
+.main{
+  background-image: linear-gradient(rgb(203, 241, 203),rgb(243, 243, 206));
+  height:100px;
+  text-align: center;
+  padding-top:20px;
+}
+.img_cls{
+  padding-left: 250px;
+}
+.message{
+  margin-left: 180px;
+
+}
+.btn{
+  height: 200px;
+  width:200px;
+
+}
